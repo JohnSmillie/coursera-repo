@@ -25,7 +25,9 @@ h2 {
 .navbar {
     border: black 2px solid;
     background-color: gray;
+    
 }
+
 
 .navbar-brand h1 {
     font-size: 2em;
@@ -44,14 +46,14 @@ h2 {
     border: black 2px solid;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     ul{
         visibility: hidden;
     }
    
 }
 
-@media (max-width: 575px){
+@media (max-width: 767px){
     .navbar{
         border: 2px black solid;
         padding: 5px 10px 5px 10px;
